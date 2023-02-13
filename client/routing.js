@@ -1,25 +1,35 @@
-// import ReactDOM from "react-dom/client";
-// import { BrowserRouter, Routes, Route } from "react-router-dom";
-// import Layout from "./pages/Layout";
-// import Home from "./pages/Home";
-// import Blogs from "./pages/Blogs";
-// import Contact from "./pages/Contact";
-// import NoPage from "./pages/NoPage";
+import React from "react";
+import { createRoot } from "react-dom/client";
+import {
+  createBrowserRouter,
+  RouterProvider,
+  Route,
+  Link,
+} from "react-router-dom";
+import JouneyPage from "./src/pages/JouneyPage";
+import LandingPage from "./src/pages/LandingPage";
+import LoginPage from "./src/pages/LoginPage";
+import MainPage from "./src/pages/MainPage";
 
-// export default function App() {
-//   return (
-//     <BrowserRouter>
-//       <Routes>
-//         <Route path="/" element={<Layout />}>
-//           <Route index element={<Home />} />
-//           <Route path="blogs" element={<Blogs />} />
-//           <Route path="contact" element={<Contact />} />
-//           <Route path="*" element={<NoPage />} />
-//         </Route>
-//       </Routes>
-//     </BrowserRouter>
-//   );
-// }
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <LandingPage />,
+  },
+  {
+    path: "/LoginPage",
+    element: <LoginPage />,
+  },
+  {
+    path: "/MainPage",
+    element: <MainPage />,
+  },
+  {
+    path: "/JourneyPage",
+    element: <JouneyPage />,
+  },
+]);
 
-// const root = ReactDOM.createRoot(document.getElementById('root'));
-// root.render(<App />);
+createRoot(document.getElementById("root")).render(
+  <RouterProvider router={router} />
+);
