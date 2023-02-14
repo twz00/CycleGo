@@ -7,7 +7,7 @@ CHOOSE THE PROPERTY THE BEST SUITED FOR YOU!
 
 Getting Started:
 
-Enter the StayHereLah website.
+Enter the CycleGO application 
 1. 
 2. 
 3. 
