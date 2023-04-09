@@ -4,7 +4,12 @@
 - The cycling culture in Singapore has been steadily growing over the years, with more people using bicycles as a mode of transport, for recreation, and as a form of exercise. However, there is currently a lack of information available to help individuals plan their cycling trips, which can be a barrier to further growth of the cycling community.
 - To address this issue, our application, CycleGo aims to bridge this gap by providing cycling enthusiasts in Singapore with an easy-to-use platform to discover popular cycling routes. The application provides users with essential information such as weather conditions and bicycle parking locations to help them plan their trips. Additionally, the application provides a medium for tracking one’s fitness progress by allowing the users to set goals and view their progress. 
 - By providing accurate and up-to-date information, we aim to encourage more people to take up cycling. Our goal is to create a comprehensive mobile based web application to empower cyclists with the necessary tools and resources to plan their rides efficiently, and enjoyably, while building a community of healthy and fit individuals and encouraging cycling amongst everyone.
-- This is a web application built using React that allows users to perform various tasks such as creating, updating, and deleting data. Firebase is used as the backend to store data while Material UI is used for the user interface design.
+
+## Technologies Used 
+The application uses the following technologies:
+1. React: A JavaScript library for building user interfaces
+2. Firebase: A cloud-based platform for building mobile and web applications
+3. Material UI: A React UI framework for building web applications with a modern design
 
 
 ## Getting Started
